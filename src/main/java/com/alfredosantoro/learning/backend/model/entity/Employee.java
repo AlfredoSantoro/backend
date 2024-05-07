@@ -13,7 +13,7 @@ public class Employee {
     private Long id;
     @Column(name = "name", nullable = false)
     private String name;
-    @Column(name = "name", nullable = false)
+    @Column(name = "surname", nullable = false)
     private String surname;
     private String role;
 
